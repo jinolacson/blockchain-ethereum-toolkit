@@ -37,5 +37,11 @@ module.exports = {
       enabled: true,
       runs: 200
     }
+  },
+  
+  compilers: {
+    solc: {
+      version: "^0.4.17" // will download version `^0.4.17` during compilation
+    }
   }
 }
